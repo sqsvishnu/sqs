@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sqs-bdd" />
         <module name="test" />
-        <module name="test (1)" />
       </profile>
       <profile name="Annotation profile for test" enabled="true">
         <sourceOutputDir name="../target/generated-sources/annotations" />
