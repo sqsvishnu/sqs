@@ -1,7 +1,6 @@
 @Policy
 Feature:Create a Policy for an Existing Account
 
-
   Scenario:
     Given I have an Existing Account
     When Account Summary is Displayed
