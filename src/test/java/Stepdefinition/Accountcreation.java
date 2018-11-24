@@ -56,14 +56,14 @@ public class Accountcreation {
 
 	@When("^I select a product as Personal Auto$")
 	public void i_select_a_product_as_Personal_Auto() throws InterruptedException {
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		//personal auto
 		driver.findElement(By.id("NewSubmission:NewSubmissionScreen:ProductOffersDV:ProductSelectionLV:7:addSubmission")).click();
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		//offering selection
 		driver.findElement(By.xpath("//input[@id='SubmissionWizard:OfferingScreen:OfferingSelection-inputEl']")).sendKeys("Basic Program");
 		//next
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		
 		
 		driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
@@ -166,12 +166,12 @@ public class Accountcreation {
 		driver.findElement(By.id("SubmissionWizard:SubmissionWizard_PolicyReviewScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl")).click();
 
 		//bind options
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 
 		driver.findElement(By.id("SubmissionWizard:SubmissionWizard_QuoteScreen:JobWizardToolbarButtonSet:BindOptions-btnWrap")).click();
 
 		//bind&Issue only
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 
 		driver.findElement(By.id("SubmissionWizard:SubmissionWizard_QuoteScreen:JobWizardToolbarButtonSet:BindOptions:BindAndIssue-textEl")).click();
 
@@ -211,9 +211,4 @@ public class Accountcreation {
 		driver.findElement(By.xpath("//*[@id=\"PolicySearch:PolicySearchScreen:DatabasePolicySearchPanelSet:PolicySearch_ResultsLV:0:PolicyNumber\"]")).click();
 		Thread.sleep(3000);
 	}
-	
-
-
-
-
 }
