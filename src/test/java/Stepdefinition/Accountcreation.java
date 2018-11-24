@@ -23,6 +23,8 @@ public class Accountcreation {
     @Given("^I have an Existing Account$")
     public void i_have_an_Existing_Account() {
         // Write code here that turns the phrase above into concrete actions
+        System.out.print("Hello User");
+
         b.opens_etsy_home_page();
 
         driver.manage().window().maximize();
