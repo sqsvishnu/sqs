@@ -91,6 +91,7 @@
 					<reuseForks>true</reuseForks>
 					<includes>
 						<include>**/Parallel*IT.class</include>
+						<include>**/Runner.java</include>
 					</includes>
 					</configuration>
 			</plugin>
