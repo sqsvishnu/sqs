@@ -161,7 +161,7 @@ public class Accountcreation {
         driver.findElement(By.id("SubmissionWizard:SubmissionWizard_PolicyReviewScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl")).click();
 
         //bind options
-        Thread.sleep(4000);
+        Thread.sleep(5000);
 
         driver.findElement(By.id("SubmissionWizard:SubmissionWizard_QuoteScreen:JobWizardToolbarButtonSet:BindOptions-btnWrap")).click();
 
@@ -176,7 +176,7 @@ public class Accountcreation {
         driver.findElement(By.id("button-1005-btnInnerEl")).click();
 
         //Submission Bound
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
 
         driver.findElement(By.id("JobComplete:JobCompleteScreen:JobCompleteDV:ViewPolicy-inputEl")).click();
@@ -220,10 +220,5 @@ public class Accountcreation {
                 cce.printStackTrace();
             }
         }
-    }
-
-    @When("^Account summary$")
-    public void accountSummary() throws Throwable {
-        System.out.print("Hello");
     }
 }

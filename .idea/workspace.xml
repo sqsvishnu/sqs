@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbd6b8c-544b-4c54-8e35-7821a9a8e906" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/donut-0.0.1-one-jar.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/donut_2018-11-24-1548.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/donut_2018-11-24-1549.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/donut_2018-11-24-1551.0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/Policy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/Policy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/test/target/" />
@@ -66,23 +63,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="39" />
-          <entry key="java" value="425" />
-          <entry key="txt" value="76" />
+          <entry key="feature" value="40" />
+          <entry key="java" value="427" />
+          <entry key="txt" value="77" />
           <entry key="xml" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="39" />
-          <entry key="JAVA" value="425" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="Cucumber" value="40" />
+          <entry key="JAVA" value="427" />
+          <entry key="PLAIN_TEXT" value="77" />
           <entry key="XML" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
+          <entry key="class" value="3" />
           <entry key="feature" value="2" />
           <entry key="java" value="12" />
           <entry key="xml" value="1" />
@@ -90,7 +87,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="3" />
           <entry key="Cucumber" value="2" />
           <entry key="JAVA" value="12" />
           <entry key="XML" value="1" />
@@ -117,17 +114,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.31/serenity-core-1.9.31.jar!/net/thucydides/core/webdriver/WebDriverFacade.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="211" selection-start-line="211" selection-end-line="211" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="226" column="31" selection-start-line="226" selection-start-column="31" selection-end-line="226" selection-end-column="31" />
+            <state relative-caret-position="216">
+              <caret line="188" column="23" lean-forward="true" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -141,7 +147,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -199,9 +205,9 @@
         <option value="$PROJECT_DIR$/test/script/features/test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Stepdefinition/BuyerSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" />
         <option value="$PROJECT_DIR$/Feature/Policy.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" />
       </list>
     </option>
   </component>
@@ -279,7 +285,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543052879460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543055729251" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -560,19 +566,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543051803397</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="script changes">
+      <created>1543055032411</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1543055032411</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Test_Scenario_(1) - 2018.11.23 at 18h 39m 27s.xml">
-      <configuration name="Scenario: Test Scenario (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario___(1) - 2018.11.23 at 19h 20m 08s.xml">
-      <configuration name="Scenario:  (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 11h 08m 45s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 02m 31s.xml">
       <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -594,11 +598,20 @@
     <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 13h 26m 04s.xml">
       <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 16h 02m 48s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 16h 05m 12s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 16h 07m 36s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -614,7 +627,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -663,14 +676,14 @@
     <MESSAGE value="initial configuration" />
     <MESSAGE value="initial configuration001" />
     <MESSAGE value="bdd sqs" />
-    <MESSAGE value="script changes" />
     <MESSAGE value="script changes - new" />
     <MESSAGE value="Formatted lines" />
     <MESSAGE value="Formatted code" />
     <MESSAGE value="Formating code" />
     <MESSAGE value="reports" />
     <MESSAGE value="script change" />
-    <option name="LAST_COMMIT_MESSAGE" value="script change" />
+    <MESSAGE value="script changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="script changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -736,20 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="226" column="31" selection-start-line="226" selection-start-column="31" selection-end-line="226" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-679">
@@ -768,6 +767,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.31/serenity-core-1.9.31.jar!/net/thucydides/core/webdriver/WebDriverFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="188" column="23" lean-forward="true" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
         </state>
       </provider>
     </entry>
