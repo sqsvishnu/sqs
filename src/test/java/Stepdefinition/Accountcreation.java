@@ -31,8 +31,6 @@ public class Accountcreation {
         driver.findElement(By.id("Login:LoginScreen:LoginDV:password-inputEl")).sendKeys("Selva");
 
         driver.findElement(By.id("Login:LoginScreen:LoginDV:submit-btnInnerEl")).click();
-
-
     }
 
     @When("^Account Summary is Displayed$")
