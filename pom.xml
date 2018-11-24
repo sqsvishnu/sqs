@@ -55,7 +55,25 @@
 		<version>1.7.0</version>
 		<scope>test</scope>
 	</dependency>
-	
+	  <!-- https://mvnrepository.com/artifact/report.donut/donut-junit-adapter -->
+	  <dependency>
+		  <groupId>report.donut</groupId>
+		  <artifactId>donut-junit-adapter</artifactId>
+		  <version>0.2.3</version>
+	  </dependency>
+	  <!-- https://mvnrepository.com/artifact/report.donut/donut -->
+	  <dependency>
+		  <groupId>report.donut</groupId>
+		  <artifactId>donut</artifactId>
+		  <version>1.1</version>
+	  </dependency>
+	  <!-- https://mvnrepository.com/artifact/report.donut/donut-maven-plugin -->
+	  <dependency>
+		  <groupId>report.donut</groupId>
+		  <artifactId>donut-maven-plugin</artifactId>
+		  <version>0.0.6</version>
+	  </dependency>
+
   </dependencies>
   
   <build>
