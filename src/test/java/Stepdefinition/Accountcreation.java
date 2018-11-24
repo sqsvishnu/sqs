@@ -1,14 +1,13 @@
 package Stepdefinition;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 
 public class Accountcreation {
@@ -205,5 +204,20 @@ public class Accountcreation {
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\"PolicySearch:PolicySearchScreen:DatabasePolicySearchPanelSet:PolicySearch_ResultsLV:0:PolicyNumber\"]")).click();
         Thread.sleep(3000);
+    }
+
+    @After
+    public void afterScenario(Scenario s) {
+        if (s.isFailed()) {
+            try {
+                byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+                s.embed(screenshot, "image/png");
+                s.write("URL at failure: " + driver.getCurrentUrl());
+            } catch (WebDriverException wde) {
+                s.write("Embed failure " + wde.getMessage());
+            } catch (ClassCastException cce) {
+                cce.printStackTrace();
+            }
+        }
     }
 }
