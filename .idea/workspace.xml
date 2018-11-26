@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adbd6b8c-544b-4c54-8e35-7821a9a8e906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/test/target/" />
@@ -67,17 +68,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="40" />
-          <entry key="java" value="465" />
+          <entry key="java" value="474" />
           <entry key="txt" value="131" />
-          <entry key="xml" value="119" />
+          <entry key="xml" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="40" />
-          <entry key="JAVA" value="465" />
+          <entry key="JAVA" value="474" />
           <entry key="PLAIN_TEXT" value="131" />
-          <entry key="XML" value="119" />
+          <entry key="XML" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,11 +106,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="165">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -118,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -162,10 +184,10 @@
         <option value="$PROJECT_DIR$/test/script/steps/steps/steps.java" />
         <option value="$PROJECT_DIR$/test/script/features/test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Stepdefinition/BuyerSteps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" />
         <option value="$PROJECT_DIR$/Feature/Policy.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -220,6 +242,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Stepdefinition" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sqs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -227,7 +257,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543056638160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543203490752" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -252,15 +282,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Cucumber java.Scenario: Create a Policy for an Existing Account">
-    <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Policy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Policy.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors Stepdefinition" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="sqs-bdd" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Policy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -271,14 +300,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/test/script/features/test.feature" />
-      <option name="GLUE" value="steps" />
+    <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Policy.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors Stepdefinition" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="test" />
+      <module name="sqs-bdd" />
       <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: " />
       <extension name="coverage">
         <pattern>
@@ -348,19 +377,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: " />
       <item itemvalue="Cucumber java.Scenario: Test Scenario" />
       <item itemvalue="Cucumber java.Scenario: Test Scenario (1)" />
       <item itemvalue="Cucumber java.Scenario:  (1)" />
       <item itemvalue="Cucumber java.Scenario: Create a Policy for an Existing Account" />
+      <item itemvalue="Cucumber java.Feature: Policy" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Scenario: Create a Policy for an Existing Account" />
+        <item itemvalue="Cucumber java.Feature: Policy" />
         <item itemvalue="Cucumber java.Scenario:  (1)" />
         <item itemvalue="Cucumber java.Scenario: Test Scenario (1)" />
         <item itemvalue="Cucumber java.Scenario: Test Scenario" />
-        <item itemvalue="Cucumber java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
@@ -540,15 +569,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 11m 01s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 13h 26m 04s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 16h 02m 48s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 16h 05m 12s.xml">
       <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -570,9 +590,18 @@
     <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 19h 29m 46s.xml">
       <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 08h 15m 45s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Policy - 2018.11.26 at 08h 22m 25s.xml">
+      <configuration name="Feature: Policy" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 08h 28m 05s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
@@ -584,13 +613,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4442623" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4442623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -707,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.31/serenity-core-1.9.31.jar!/net/thucydides/core/webdriver/WebDriverFacade.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -728,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -744,15 +759,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="165">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
