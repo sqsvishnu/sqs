@@ -37,7 +37,7 @@ public class Accountcreation {
 
     @When("^Account Summary is Displayed$")
     public void account_Summary_is_Displayed() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.xpath("//*[@id=\"TabBar:AccountTab-btnInnerEl\"]")).click();
 
@@ -54,28 +54,28 @@ public class Accountcreation {
 
     @When("^I select a product as Personal Auto$")
     public void i_select_a_product_as_Personal_Auto() throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(6000);
         //personal auto
         driver.findElement(By.id("NewSubmission:NewSubmissionScreen:ProductOffersDV:ProductSelectionLV:7:addSubmission")).click();
-        Thread.sleep(4000);
+        Thread.sleep(4500);
         //offering selection
         driver.findElement(By.xpath("//input[@id='SubmissionWizard:OfferingScreen:OfferingSelection-inputEl']")).sendKeys("Basic Program");
         //next
+        Thread.sleep(4500);
+
+
+        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
+        Thread.sleep(3500);
+
+        //next
+        Thread.sleep(3500);
+
+        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
         Thread.sleep(4000);
-
-
-        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3000);
-
-        //next
-        Thread.sleep(3000);
-
-        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3000);
         //next
 
         driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
     }
 
@@ -83,43 +83,43 @@ public class Accountcreation {
     public void i_enter_the_Required_Details() throws InterruptedException {
 
         //add
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriversLV_tb:AddDriver-btnInnerEl")).click();
         //add sideclick
 
-
+        Thread.sleep(3500);
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriversLV_tb:AddDriver:AddExistingContact-arrowEl")).click();
         //partha r
 
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriversLV_tb:AddDriver:AddExistingContact:0:UnassignedDriver-textEl")).click();
         //license state
-        Thread.sleep(4000);
+        Thread.sleep(4500);
 
         //licence clear
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriverDetailsCV:PolicyContactDetailsDV:LicenseInputSet:LicenseState-inputEl")).clear();
 
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriverDetailsCV:PolicyContactDetailsDV:LicenseInputSet:LicenseState-inputEl")).sendKeys("Hawaii");
 
         //next
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3000);
+        Thread.sleep(3500);
         //create vehicle
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel_tb:Add-btnInnerEl")).click();
-        Thread.sleep(4000);
+        Thread.sleep(4050);
         //print vin no
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_VehicleDV:Vin_DV-inputEl")).sendKeys("123456");
         //costnew clear
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_VehicleDV:CostNew_DV-inputEl")).clear();
-        Thread.sleep(3000);
+        Thread.sleep(3500);
         //costnew enter
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_VehicleDV:CostNew_DV-inputEl")).sendKeys("2000");
@@ -128,32 +128,32 @@ public class Accountcreation {
         //license state clear
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_VehicleDV:LicenseState_DV-inputEl")).clear();
 
-        Thread.sleep(3000);
+        Thread.sleep(3500);
         //license state print
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_VehicleDV:LicenseState_DV-inputEl")).sendKeys("Hawaii");
 
         //click add
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_AssignDriversDV:DriverPctLV_tb:AddDriver-btnInnerEl")).click();
-        Thread.sleep(3000);
+        Thread.sleep(3050);
 
         //chose partha
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_AssignDriversDV:DriverPctLV_tb:AddDriver:0:Driver-textEl")).click();
 
         //next 2 times
-        Thread.sleep(3000);
-
-        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3500);
-
-        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3500);
-
-        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
         Thread.sleep(3050);
+
+        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
+        Thread.sleep(4000);
+
+        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
+        Thread.sleep(4000);
+
+        driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
+        Thread.sleep(4000);
     }
 
     @Then("^Policy Number is generated$")
@@ -164,7 +164,7 @@ public class Accountcreation {
         driver.findElement(By.id("SubmissionWizard:SubmissionWizard_PolicyReviewScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl")).click();
 
         //bind options
-        Thread.sleep(6000);
+        Thread.sleep(6050);
 
         driver.findElement(By.id("SubmissionWizard:SubmissionWizard_QuoteScreen:JobWizardToolbarButtonSet:BindOptions-btnWrap")).click();
 

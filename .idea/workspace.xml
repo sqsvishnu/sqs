@@ -13,6 +13,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sqs$Runner.ic" NAME="Runner Coverage Results" MODIFIED="1543214176820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestRunner.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1208417279">
       <usages-collector id="statistics.lifecycle.project">
@@ -68,16 +73,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="40" />
-          <entry key="java" value="499" />
-          <entry key="txt" value="154" />
+          <entry key="java" value="548" />
+          <entry key="txt" value="164" />
           <entry key="xml" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="40" />
-          <entry key="JAVA" value="499" />
-          <entry key="PLAIN_TEXT" value="154" />
+          <entry key="JAVA" value="548" />
+          <entry key="PLAIN_TEXT" value="164" />
           <entry key="XML" value="129" />
         </counts>
       </usages-collector>
@@ -99,7 +104,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.merge" value="7" />
+          <entry key="git.branch.merge" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -109,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="-455">
+              <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -119,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -128,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestSerenity/TestSerenity/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -137,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/TestSerenity/TestSerenity/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,7 +163,7 @@
         <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -205,8 +210,8 @@
         <option value="$PROJECT_DIR$/test/script/features/test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Stepdefinition/BuyerSteps.java" />
         <option value="$PROJECT_DIR$/Feature/Policy.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java" />
       </list>
     </option>
@@ -231,74 +236,6 @@
               <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
               <item name="sqs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="Feature" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestSerenity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Stepdefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestSerenity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -306,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543207532199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543231674898" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -330,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Create a Policy for an Existing Account">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: Policy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/Policy.feature" />
@@ -406,39 +343,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Test Scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/test/script/features/test.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="test" />
-      <option name="NAME_FILTER" value="^Test Scenario$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Test Scenario$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Test Scenario" />
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqs-bdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="TestRunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.Runner" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: Test Scenario" />
       <item itemvalue="Cucumber java.Scenario: Test Scenario (1)" />
       <item itemvalue="Cucumber java.Scenario:  (1)" />
       <item itemvalue="Cucumber java.Scenario: Create a Policy for an Existing Account" />
       <item itemvalue="Cucumber java.Feature: Policy" />
+      <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber java.Scenario: Create a Policy for an Existing Account" />
         <item itemvalue="Cucumber java.Feature: Policy" />
         <item itemvalue="Cucumber java.Scenario:  (1)" />
         <item itemvalue="Cucumber java.Scenario: Test Scenario (1)" />
-        <item itemvalue="Cucumber java.Scenario: Test Scenario" />
       </list>
     </recent_temporary>
   </component>
@@ -642,43 +574,60 @@
       <option name="project" value="LOCAL" />
       <updated>1543204562546</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Script fix">
+      <created>1543209334740</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1543209334740</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 09h 39m 59s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 02m 02s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 09h 42m 05s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 03m 23s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 09h 44m 22s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 07m 13s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 09h 50m 03s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 08m 38s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 10h 01m 36s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 25m 11s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 10h 04m 25s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 26m 27s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 10h 06m 57s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 31m 34s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 10h 11m 15s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 35m 25s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 10h 11m 57s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 39m 22s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.26 at 10h 14m 54s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner - 2018.11.26 at 12h 44m 00s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -698,6 +647,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -757,16 +707,23 @@
     <MESSAGE value="Misc fix" />
     <MESSAGE value="Misc fixs" />
     <MESSAGE value="Misc fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Misc fixes" />
+    <MESSAGE value="Script fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Script fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java</url>
           <line>168</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -833,24 +790,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestSerenity/TestSerenity/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestSerenity/TestSerenity/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -897,21 +844,31 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="-455">
+          <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
         </state>
       </provider>
     </entry>
