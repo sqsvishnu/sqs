@@ -57,40 +57,42 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="40" />
-          <entry key="java" value="459" />
-          <entry key="txt" value="112" />
+          <entry key="java" value="465" />
+          <entry key="txt" value="131" />
           <entry key="xml" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="40" />
-          <entry key="JAVA" value="459" />
-          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="JAVA" value="465" />
+          <entry key="PLAIN_TEXT" value="131" />
           <entry key="XML" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="feature" value="3" />
-          <entry key="java" value="13" />
+          <entry key="feature" value="4" />
+          <entry key="java" value="14" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="Cucumber" value="3" />
-          <entry key="JAVA" value="13" />
+          <entry key="Cucumber" value="4" />
+          <entry key="JAVA" value="14" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -102,12 +104,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="97">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -116,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -178,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,12 +189,41 @@
               <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
               <item name="sqs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sqs" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sqs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sqs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sqs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sqs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Stepdefinition" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,25 +529,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543056628398</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Hello user to world">
+      <created>1543057947913</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1543057947913</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 02m 31s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 03m 54s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 05m 38s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 08m 39s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 08m 46s.xml">
-      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 12h 11m 01s.xml">
       <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -530,11 +555,27 @@
     <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 16h 07m 36s.xml">
       <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 17h 28m 09s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 17h 31m 50s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 18h 42m 21s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 19h 09m 35s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_Policy_for_an_Existing_Account - 2018.11.24 at 19h 29m 46s.xml">
+      <configuration name="Scenario: Create a Policy for an Existing Account" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,14 +584,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4442623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4442623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -594,8 +635,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial configuration" />
     <MESSAGE value="initial configuration001" />
     <MESSAGE value="bdd sqs" />
@@ -608,7 +647,8 @@
     <MESSAGE value="script changes" />
     <MESSAGE value="Demo changes" />
     <MESSAGE value="include Hello user" />
-    <option name="LAST_COMMIT_MESSAGE" value="include Hello user" />
+    <MESSAGE value="Hello user to world" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello user to world" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,17 +742,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="97">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Stepdefinition/Accountcreation.java">
+    <entry file="file://$PROJECT_DIR$/Feature/Policy.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
