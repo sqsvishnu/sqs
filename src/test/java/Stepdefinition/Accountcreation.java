@@ -83,7 +83,7 @@ public class Accountcreation {
     public void i_enter_the_Required_Details() throws InterruptedException {
 
         //add
-
+        Thread.sleep(3000);
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriversLV_tb:AddDriver-btnInnerEl")).click();
         //add sideclick
@@ -97,7 +97,7 @@ public class Accountcreation {
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriversLV_tb:AddDriver:AddExistingContact:0:UnassignedDriver-textEl")).click();
         //license state
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
         //licence clear
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PADriversScreen:PADriversPanelSet:DriversListDetailPanel:DriverDetailsCV:PolicyContactDetailsDV:LicenseInputSet:LicenseState-inputEl")).clear();
@@ -110,9 +110,10 @@ public class Accountcreation {
         Thread.sleep(3000);
 
         driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
+        Thread.sleep(3000);
         //create vehicle
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel_tb:Add-btnInnerEl")).click();
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         //print vin no
 
         driver.findElement(By.id("SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:PAVehiclesScreen:PAVehiclesPanelSet:VehiclesListDetailPanel:VehiclesDetailsCV:PersonalAuto_VehicleDV:Vin_DV-inputEl")).sendKeys("123456");
@@ -146,13 +147,13 @@ public class Accountcreation {
         Thread.sleep(3000);
 
         driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.id("SubmissionWizard:Next-btnInnerEl")).click();
-        Thread.sleep(3000);
+        Thread.sleep(3050);
     }
 
     @Then("^Policy Number is generated$")
@@ -163,27 +164,27 @@ public class Accountcreation {
         driver.findElement(By.id("SubmissionWizard:SubmissionWizard_PolicyReviewScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl")).click();
 
         //bind options
-        Thread.sleep(5000);
+        Thread.sleep(6000);
 
         driver.findElement(By.id("SubmissionWizard:SubmissionWizard_QuoteScreen:JobWizardToolbarButtonSet:BindOptions-btnWrap")).click();
 
         //bind&Issue only
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         driver.findElement(By.id("SubmissionWizard:SubmissionWizard_QuoteScreen:JobWizardToolbarButtonSet:BindOptions:BindAndIssue-textEl")).click();
 
         //pop up
-        Thread.sleep(3000);
+        Thread.sleep(3500);
 
         driver.findElement(By.id("button-1005-btnInnerEl")).click();
 
         //Submission Bound
-        Thread.sleep(5000);
+        Thread.sleep(5500);
 
 
         driver.findElement(By.id("JobComplete:JobCompleteScreen:JobCompleteDV:ViewPolicy-inputEl")).click();
-        Thread.sleep(9000);
 
+        Thread.sleep(8000);
         WebElement storeValueEle = driver.findElement(By.xpath("//span[@id='PolicyFile:PolicyFileMenuInfoBar:PolicyNumber-btnInnerEl']//span[2]"));
         String policyNumber = storeValueEle.getText();
         System.out.println("POLICY NUMBER: " + policyNumber);
@@ -191,7 +192,7 @@ public class Accountcreation {
         //Search policy
         driver.findElement(By.xpath("//*[@id=\"TabBar:SearchTab-btnInnerEl\"]")).click();
 
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
         driver.findElement(By.xpath("//*[@id=\"PolicySearch:PolicySearchScreen:DatabasePolicySearchPanelSet:PolicySearchDV:PolicyNumberCriterion-inputEl\"]")).sendKeys(policyNumber);
 
