@@ -17,7 +17,6 @@
 		<webdriver.driver>chrome</webdriver.driver>
   </properties>
 
-	
   <dependencies>
     <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-core -->
 	<dependency>
